@@ -1,0 +1,412 @@
+body{
+    background: #191919;
+}
+
+#header{
+    z-index: 99;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background: #191919c4;
+    backdrop-filter: blur(4px);
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    animation: head 2s alternate ease-in-out;
+}
+@keyframes head  {
+    0%{
+        transform: translateY(-100px);
+    }
+}
+
+.header h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    color: white;
+
+}
+.header-nav a{
+    font-size: 22px;
+    color: white;
+    margin-left: 20px;
+    transition: 0.6s;
+}
+.header-nav a:hover{
+    color: #118DA8;
+}
+
+
+
+
+/* HERO */
+#hero{
+    padding: 30px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.heroimg{
+    animation: heroleft 2s alternate ease-in-out;
+}
+@keyframes heroleft {
+    0%{
+        transform: translateX(-700px);
+    }
+}
+.hero-text h1{
+    color: white;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-size: 62px;
+    margin: 40px 0;
+}
+.hero-text h1 span{
+    font-weight: 900;
+}
+.hero-text p{
+    font-weight: 200;
+    color: white;
+}
+.hero-icons{
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+.hero-text{
+    animation: con 2s alternate ease-in-out;
+}
+@keyframes con  {
+    0%{
+        transform: translateX(700px);
+    }
+}
+
+/* HERO */
+
+.lin{
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lin h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+.lin button{
+   
+    color: white;
+    background: #118DA8;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: 0.6s;
+    
+    
+}
+.lin button:hover{
+    color: #118DA8;
+    background: white;
+    transform: scale(1.1);
+}
+
+
+
+#should{
+    padding:  60px;
+}
+
+
+.should-block{
+    background: black;
+    margin-bottom: 45px;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    font-family: "DM Sans", sans-serif;
+    animation: sh-block 2s alternate ease-in-out;
+
+}
+@keyframes sh-block {
+    0%{
+        transform: translateX(-700px);
+    }
+    80%{
+        transform: scale(1.1);
+    }
+}
+
+.should-block img{
+    width: 340px;
+    height: 450px;
+}
+.should-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-up{
+    background: #191919;
+    color: white;
+    width: 73px;
+    height: 27px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.6s;
+}
+.btn-up:hover{
+    background: white;
+    color: #191919;
+}
+.btn-down{
+    width: 208px;
+    height: 51px;
+    color: white;
+    border-radius: 10px;
+    background: #118DA8;
+    border: 2px solid black;
+}
+.btn-down:focus{
+    background: white;
+    color: #118DA8;
+    border: 2px solid #118DA8;
+}
+.should-text a{
+    color: #118DA8;
+    padding-top: 50px;
+}
+.should-text h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 5px;
+    
+}
+.should-text p{
+    color: #FFFFFF;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffffaa;
+}
+
+#jacob{
+    padding: 40px;
+}
+.jacob{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+.jacob-text{
+    animation: jac 2s alternate ease-in-out;
+}
+@keyframes jac {
+    0%{
+        transform: translateX(-700px);
+    }
+}
+.jacobimg{
+    animation: cob 2s alternate ease-in-out;
+}
+@keyframes cob {
+    0%{
+        transform: translateX(700px);
+    }
+}
+.jacobicon{
+    animation: ic 2s infinite ease-in-out;
+}
+@keyframes ic {
+    0%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(20px);
+    }
+    
+}
+
+    
+
+
+.jacob-text h4{
+    color: #118DA8;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.jacob-text h1{
+    color: white;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-size: 62px;
+}
+.jacob-text p{
+    color: rgba(255, 255, 255, 0.54);
+    font-size: 23px;
+}
+#for{
+    padding: 50px;
+    width: 1400px;
+    height: 500px;
+    
+}
+.for-text a{
+    color: #118DA8;
+}
+.for-text h1{
+    font-size: 60px;
+    color: white;
+}
+
+.for{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 13px;
+    animation: forr 2s alternate ease-in-out;
+}
+@keyframes forr {
+    0%{
+        transform: translateX(700px);
+    }
+    80%{
+        transform: scale(1.1);
+    }
+}
+
+.for-text a{
+    color: #118DA8;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+.inputs input{
+    font-size: 24px;
+    background: #191919;
+    border: none;
+    color: white;
+    width: 500px;
+    height: 70px;
+    border-radius: 1px;
+}
+.inputs button{
+    width: 59px;
+    height: 31px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    background: #118DA8;
+    color: white;
+    transition: 0.6s;
+
+
+}
+.inputs button:hover{
+    color: #118DA8;
+    background: white;
+}
+
+#star{
+    padding: 30px;
+}
+.star-block{
+    background: black;
+    border-radius: 32px;
+    width: 344px;
+    height: 274px;
+    padding: 60px;
+    transition: 0.6s;
+    
+}
+.star-block:hover{
+    background: rgba(178, 175, 175, 0.701);
+    transform: scale(1.1);
+    
+}
+ .star-block h2{
+    color: white;
+    font-size: 36px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    padding-top: 5px;
+    transition: 0.6s;
+ }
+ .star-block:hover h2{
+    color: black;
+ }
+ .star-block:hover h4{
+    color: black;
+ }
+ .star-block h4{
+    color: rgba(255, 255, 255, 0.611);
+    font-size: 20px;
+    letter-spacing: 1px;
+ }
+
+.star{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* FOOTER */
+#footer{
+    padding: 50px 30px;
+}
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-logo h1{
+    color: #FFFFFF;
+    font-size: 60px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-logo a{
+    color: #FFFFFF;
+    margin-right: 14px;
+    font-size: 40px;
+}
+.footer-text a{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.footer-text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+/* FOOTER */
